@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🛒 E-commerce API com Django REST Framework
 Este projeto é uma API para um sistema de e-commerce construída com Django e Django REST Framework. Ele possui autenticação personalizada, controle de permissões por tipo de usuário e gerenciamento de produtos, pedidos e itens de pedido.
 
@@ -60,3 +61,6 @@ Instale as dependências: pip install -r requirements.txt
 Execute as migrações: python manage.py migrate
 
 Inicie o servidor: python manage.py runserver
+=======
+# market_place
+>>>>>>> b52e9bcff5bfcf98717a72708faecfc0ef4f047e
