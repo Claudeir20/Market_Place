@@ -76,4 +76,3 @@ class ListUsuario(generics.ListAPIView):
     queryset = Usuario.objects.all()
     serializer_class = UsuarioSerializer
     permission_classes = [IsAdmin]
-    

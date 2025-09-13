@@ -5,6 +5,7 @@ from .serializers import PedidoItemSerializer, ProdutoSerializer, PedidoSerializ
 from .models import Pedido, PedidoItem, Produto
 from .permissions import IsAdmin, IsCliente, IsVendedor, IsAdminOrVendedor
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
+
 # Create your views here.
 
 class ProdutoCreateAPIView(CreateAPIView):
